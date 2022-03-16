@@ -1,8 +1,13 @@
 [package]
-name = "openapi"
-version = "1.0.0"
-authors = ["OpenAPI Generator team and contributors"]
-edition = "2018"
+name = "trilium-api"
+version = "0.1.0"
+authors = ["sigaloid", "OpenAPI Generator team and contributors"]
+edition = "2021"
+description = "Rust API for Trilium Notes"
+repository = "https://github.com/sigaloid/trilium-api"
+license = "MIT"
+keywords = ["trilium", "api"]
+categories = ["api-bindings"]
 
 [dependencies]
 serde = "^1.0"
